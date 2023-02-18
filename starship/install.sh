@@ -18,4 +18,9 @@ wget https://github.com/anujkumarnath/starship-custom-config/raw/master/starship
 mv starship.toml ~/.config/
 
 # Sourcing bashrc to get things working
-source ~/.bashrc
+# Need manual sourcing
+#source ~/.bashrc
+
+echo ""
+echo "Execute the following command to apply changes"
+echo "    source ~/.bashrc"
